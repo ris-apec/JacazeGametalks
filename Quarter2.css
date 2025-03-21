@@ -46,6 +46,7 @@ nav img{
 .nav-links ul li:hover::after{
     width: 100%;
 }
+
 .text-box{
     width: 90%;
     color: aliceblue;
@@ -63,22 +64,7 @@ nav img{
     font-size: 25px;
     color: aliceblue;
 }
-.hero-btn{
-    display: inline-block;
-    text-decoration: none;
-    color: #8174A0;
-    border: 1px solid #8174A0;
-    padding: 12px 34px;
-    font-size: 15px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-}
-.hero-btn:hover{
-    border: 1px solid #3e2b69;
-    background: #3e2b69;
-    transition: 1.5s;
-}
+
 /*----Gaming----*/
 .gaming{
     margin: auto;
@@ -102,30 +88,14 @@ p{
 }
 
 
-.row{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0px 50px 0px 50px;
-}
-.ccourse{
-    padding: 50px 0px 0px 120px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    margin-bottom: 150px;
-}
-
-.course-col {
-    background-color: #8174A0 ;
-    border-radius: 20px;
-    padding: 20px;
-}
-
 .BrandIdentity {
     padding: 100px 100px 50px 100px;
+    text-align: center;
 }
 
 .Channel {
     padding: 100px 100px 50px 100px;
+    text-align: center;
 }
 
 .ContactUs {
@@ -139,6 +109,22 @@ p{
     padding: 10px;
 }
 
-.Video {
-    padding: 0px 0px 50px 0px;
+.Box1 {
+    display: flex;
+}
+
+.Btn {
+    padding: 20px 30px 20px 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: #3e2b69;
+    background: #3e2b69;
+    color: white;
+}
+
+.Btn:hover {
+    padding: 25px 35px 25px 35px;
+    font-size: 25px;
+    transition: 0.5s;
 }
