@@ -1,3 +1,16 @@
+/*Fonts*/
+@font-face {
+    font-family: spf;
+    src: url(fonts/soopafre.ttf);
+}
+
+@font-face {
+    font-family: Qargeo;
+    src: url(fonts/Qargeo-Regular.otf);
+}
+
+/*Navigation*/
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +18,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/WebBG.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.705), rgba(4, 9, 30, 0.685)),url(images/WebBG.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -30,9 +43,11 @@ nav img{
     position: relative;
 }
 .nav-links ul li a{
-    color: aliceblue;
+    color: #ffffff;
     text-decoration: solid;
-    font-size: 13px;
+    font-size: 14px;
+    font-family: spf;
+    letter-spacing: 0.5px;
 }
 .nav-links ul li::after{
     content: '';
@@ -48,20 +63,23 @@ nav img{
 }
 .text-box{
     width: 90%;
-    color: aliceblue;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -30%);
     text-align: center;
 }
-.text-box h1{
-    font-size: 80px;
+.Heads{
+    font-size: 60px;
+    font-family: spf;
+    color: #f0f0f0;
+    letter-spacing: 5px;
 }
-.text-box p{
+.Subs{
     margin: 10px 0 40px;
     font-size: 25px;
-    color: aliceblue;
+    color: #C0C4D8;
+    font-family: Qargeo;
 }
 .hero-btn{
     display: inline-block;
@@ -73,72 +91,90 @@ nav img{
     background: transparent;
     position: relative;
     cursor: pointer;
+    font-family: spf;
+    letter-spacing: 2px;
 }
 .hero-btn:hover{
-    border: 1px solid #3e2b69;
-    background: #3e2b69;
+    border: 1px solid #72639B;
+    background: #72639B;
+    color: #361637;
     transition: 1.5s;
 }
 /*----Gaming----*/
 .gaming{
     margin: auto;
     text-align: center;
-    padding-top: 80px;
+    padding: 8vh;
+    background: #d5d8e7;
 }
 
-.GamingTop{
-    padding: 0px 200px 0px 200px;
+.Heads2{
+    font-family: spf;
+    font-size: 50px;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+    color: #000;
+    text-shadow: 1px 3px  5px#8174A0;
+    
 }
 
-h1{
-    font-size: 40px;
-    font-weight: 600;
-}
-p{
-    color: #3e2b69;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 22px;
+.Subs2 {
+    font-size: 25px;
+    font-family: Qargeo;
+    padding-bottom: 50px;
 }
 
 
-.row{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0px 50px 0px 50px;
-}
+/*Gaming2*/
+
 .ccourse{
-    padding: 50px 0px 0px 120px;
     border-radius: 10px;
     box-sizing: border-box;
     margin-bottom: 150px;
 }
 
+.ccourse p{
+    font-size: 23px;
+    color: #15111f;
+}
+.ccourse h3{
+    font-size: 25px;
+    color: #06040a;
+}
+
+.row{
+    display: flex;
+}
+
 .course-col {
-    background-color: #8174A0 ;
+    background-image: linear-gradient(#8d82ac, #72639B);
     border-radius: 20px;
-    padding: 20px;
+    padding: 18px;
+    margin: 10px;
+    transition: 0.5s;
 }
 
-.BrandIdentity {
-    padding: 100px 100px 50px 100px;
+.course-col:hover {
+    box-shadow: 0px 0px 20px #181424;
 }
 
-.Channel {
-    padding: 100px 100px 50px 100px;
-}
-
+/*Contact Us*/
 .ContactUs {
-    background-color: #3e2b69;
-    padding: 100px 100px 50px 100px;
-    color: #000000;
+    background-image: linear-gradient(#72639B, #574a7a);
+    padding: 80px;
+    margin: -8vh;
 }
-.ContactUs p {
-    color: #8174A0;
+.Heads3 {
+    color: #0d0914;
+    font-size: 40px;
+    padding: 10px;
+    font-family: spf;
+    letter-spacing: 5px;
+}
+
+.Subs3 {
+    color: #1c162b;
     font-size: 30px;
     padding: 10px;
-}
-
-.Video {
-    padding: 0px 0px 50px 0px;
+    font-family: Qargeo;
 }
