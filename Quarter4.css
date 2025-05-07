@@ -144,6 +144,10 @@ iframe {
     justify-content: space-evenly;
 }
 
+.ep1 {
+    background-color: #CED2E4;
+}
+
 .ep2 {
     img {
         height: 35vh;
